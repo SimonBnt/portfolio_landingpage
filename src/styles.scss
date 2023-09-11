@@ -1,5 +1,7 @@
-@import "abstracts/variables", "abstracts/mixins";
+@import "sass/abstracts/variables", "sass/abstracts/mixins";
 
-@import "base/reset";
+@import "sass/base/reset";
 
-@import "layout/header", "layout/main", "layout/default", "layout/footer";
+@import "sass/components/buttons";
+
+@import "sass/layout/header", "sass/layout/main", "sass/layout/default", "sass/layout/footer";
